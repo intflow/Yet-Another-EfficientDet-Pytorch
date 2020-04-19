@@ -13,7 +13,7 @@ import cv2
 import numpy as np
 
 from efficientdet.utils import BBoxTransform, ClipBoxes
-from utils.utils import preprocess_single_image, invert_affine, postprocess
+from util.utils import preprocess_single_image, invert_affine, postprocess
 
 
 compound_coef = 2
